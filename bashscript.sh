@@ -12,6 +12,8 @@ pip install scikit-learn
 pip install pickle
 pip install seaborn
 pip install h2o
+pip3 install http://download.pytorch.org/whl/cpu/torch-0.4.0-cp35-cp35m-linux_x86_64.whl 
+pip3 install torchvision
 
 python Reduced_Model.py
 python h2o.py
