@@ -18,4 +18,5 @@ pip3 install torchvision
 python Reduced_Model.py
 python h2o.py
 python Binary_2ndStage.py
+python model_performance.py
 python DeepOLS&SecondStage.py
