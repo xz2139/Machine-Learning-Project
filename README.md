@@ -15,6 +15,7 @@ However it is too big for uploading to github. Hence we provide seperate link fo
 
 
 The models should be able to run using bash script in bashscript.sh.
-We wasn't able to test in on server as we cannot install virtual enviornment due to permission issue.
+please put the code in the same directory as the data. You should be able to run the code easily for both the jupyter notebook and .py file.
+We wasn't able to test in on server as we cannot install virtual enviornment due to permission issue. 
 
 Also we provide python notebook for code illustration.
