@@ -3,34 +3,28 @@
 
 import pandas as pd
 
-
-
-
+##read judge characteristics
 d=pd.read_stata('/data/Dropbox/Data/Judge-Bios/judgebios/judgebios_circuit.dta')
-
-
 pd.get_dummies(d.abarating)
 
-
+## convert time to days
 d['AppointmentDate'] = pd.to_datetime(d['AppointmentDate'])
 d['TerminationDate'] = pd.to_datetime(d['TerminationDate'])
 d['day_Appoint_to_Terminat']=(d['TerminationDate'] - d['AppointmentDate']).dt.days
 
-
-
+##convert to categorical features
 d=d.join(pd.get_dummies(d.courtname))
 
 
 d=d.drop(['courttype'],axis=1)
 
-
-
-b=pd.read_stata('JudgesBioReshaped_TOUSE.dta')
+b=pd.read_stata('/data/Dropbox/Data/Judge-Bios/judgebios/JudgesBioReshaped_TOUSE.dta')
 
 
 s=[col for col in d if col.startswith('x_')]
 d_x=d[s]
 
+##rename the features
 d_x['x_apptoter']=d.day_Appoint_to_Terminat
 d_x['x_dccircuit']=d['u. s. court of appeals for the district of columbia circuit']
 d_x['x_dccircuit']+=d['u. s. court of appeals for the district of columbia circuit, chief justice']
@@ -66,5 +60,6 @@ d_x['middlename']=d.judgemiddlename
 d_x['suffix']=d.suffix
 d_x['x_appres']=d.appres
 
+##save to file
 d_x.to_csv('JudgeBio_x_name.csv',index=False)
 
