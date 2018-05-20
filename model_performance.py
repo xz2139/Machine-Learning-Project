@@ -1,4 +1,6 @@
-
+'''
+experimented with different algorithm to see the predictive power of the text features
+'''
 # coding: utf-8
 
 import pandas as pd
@@ -64,7 +66,6 @@ from sklearn.metrics import r2_score
 
 
 #experiment with different algorithm to get an understanding of the predictive power of the text features.
-# In[58]:
 
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.svm import SVR
