@@ -1,0 +1,130 @@
+Column Name	Description	mean	std	min	25%	50%	75%	max
+x_dem_dm	Is democrat	-0.009	0.7718	-2.0541	-0.5763	-0.0496	0.6	2.5806
+x_republican_dm	Is replublican	0.009	0.7718	-2.5806	-0.6	0.0496	0.5763	2.0541
+x_instate_ba_dm	Whether B.A. received in same state as appointment	0.0006	0.7849	-2.1857	-0.5	-0.0227	0.5513	2.0702
+x_elev_dm	"If judge was elevated from the district courts, president who made the district bench appointment"	-0.0027	0.7541	-1.9773	-0.5067	-0.0473	0.5648	2.3578
+x_unity_dm	Whether government (Congress and president) was unified or divided	-0.0058	0.7259	-1.5128	-0.5263	-0.0496	0.4746	2.5806
+x_aba_dm	American Bar Association rating	0.0077	1.0578	-3.2715	-0.7326	0.0642	0.6543	5.369
+x_crossa_dm	Whether judge and appointing president were of the same or different political parties	-0.0001	0.4004	-0.8529	-0.2267	-0.1266	0	2.5185
+x_pfedjdge_dm	If is federal district judge	-0.0021	0.7531	-2.2807	-0.507	0	0.5294	2.6341
+x_pindreg1_dm	If have other federal experience	0.0064	0.6564	-1.5034	-0.4722	-0.093	0.4833	2.2899
+x_plawprof_dm	Full-time law professor	-0.0003	0.6657	-2.0727	-0.5135	-0.1429	0.4652	2.5811
+x_pscab_dm	Sub-cabinet secretary	0.0015	0.3403	-1.3333	-0.138	-0.0167	0	1.9737
+x_pcab_dm	Sub-cabinet secretary	0	0.034	-0.087	0	0	0	0.9292
+x_pusa_dm	U.S. Attorney	0.0034	0.3771	-0.8913	-0.22	-0.0481	0	2.25
+x_pssenate_dm	State senate	0.0006	0.2095	-0.3793	-0.0476	0	0	1.7769
+x_paag_dm	"Sub-cabinet secretary, Department of Justice"	-0.0002	0.2971	-1.2667	-0.0927	-0.01	0	1.9073
+x_psp_dm	Special prosecutor	0.0011	0.0876	-0.1704	0	0	0	0.9628
+x_pslc_dm	State lower court judge	0.0011	0.6349	-1.44	-0.5435	-0.087	0.3611	2.4762
+x_pssc_dm	State lower court judge	0.0009	0.4581	-0.7324	-0.3155	-0.156	0.2676	2.4561
+x_pshouse_dm	State house	0.0002	0.2875	-0.561	-0.1233	-0.0357	0	1.9057
+x_psg_dm	Solicitor-General	-0.0003	0.1086	-0.3684	0	0	0	0.9925
+x_psgo_dm	Solicitor-General's office	-0.0015	0.2445	-0.873	-0.0198	0	0	2.2069
+x_psenate_dm	U.S. Senate	-0.0004	0.0875	-0.3684	0	0	0	0.9545
+x_psatty_dm	Atate attorney	0.007	0.5997	-1.3684	-0.4667	-0.2131	0.4649	2.6408
+x_pprivate_dm	Private practice	-0.0045	0.3957	-2.5877	0	0.0374	0.1842	1
+x_pmayor_dm	Mayor	-0.0004	0.2065	-0.4412	-0.0714	0	0	0.9912
+x_plocct_dm	Local/municipal court judge	0.0002	0.3733	-0.5455	-0.2111	-0.0878	0	1.9122
+x_phouse_dm	U.S. House of Representatives	-0.0012	0.182	-0.3333	-0.0253	0	0	0.9912
+x_pgov_dm	Governor	-0.0008	0.1337	-0.3	-0.0097	0	0	0.9912
+x_pda_dm	District/County/City Attorney	0.002	0.3132	-0.7273	-0.0642	0	0	1.9358
+x_pcc_dm	Congressional counsel	-0.0004	0.2513	-0.6875	-0.0826	0	0	1.6889
+x_pccoun_dm	City council	-0.0005	0.1949	-0.4138	-0.0106	0	0	1.8582
+x_pausa_dm	Assistant U.S. Attorney	0.0013	0.4239	-1.3571	-0.2727	-0.0968	0	2.4091
+x_pada_dm	Deputy or assistant district/county/city attorney	0.0032	0.4343	-1.3333	-0.2027	-0.0283	0	2.7368
+x_pgovt_dm	Any governmental experience	-0.0047	0.6331	-2.3014	-0.2844	0	0.3333	1.7143
+x_llm_sjd_dm	Master of Laws (LL.M.) and Doctor of Juridical Science (S.J.D.)?	0.0018	0.4813	-1.1053	-0.2667	-0.0909	0.2358	2.3372
+x_protestant_dm	Protestant	0.0006	0.7436	-2.2553	-0.52	0.004	0.5333	2.5405
+x_evangelical_dm	Evangelical	0.002	0.4768	-0.8	-0.2533	-0.0912	0.2562	2.449
+x_mainline_dm	Mainline?Protestants	-0.0016	0.727	-2.1818	-0.5217	0.0571	0.5057	2.5405
+x_noreligion_dm	No Religion	-0.0012	0.2572	-0.4123	-0.119	0	0	1.7828
+x_catholic_dm	Catholic	-0.0015	0.6927	-1.8421	-0.6395	0.0678	0.3636	2.6061
+x_jewish_dm	Jewish	0.0003	0.5307	-1.5901	-0.2734	-0.0997	0.2895	2.8391
+x_black_dm	Black	0.0001	0.3532	-0.8235	-0.2049	-0.0693	0	1.8182
+x_nonwhite_dm	Non White	0	0.4781	-0.8235	-0.3165	-0.1739	0.4286	2.5294
+x_female_dm	Female	-0.0017	0.5269	-1.12	-0.3883	-0.1759	0.4571	2.6429
+x_jd_public_dm	BA obtained in public school	0.0085	0.7718	-2.1429	-0.5149	-0.0164	0.4921	2.3539
+x_ba_public_dm	JD obtained in public school	-0.0038	0.7435	-2.0435	-0.4474	-0.0256	0.5072	2.6957
+x_b10s_dm	Age Information	-0.0018	0.4596	-1.2	-0.3226	-0.1009	0.1667	2.157
+x_b20s_dm	Age Information	-0.0064	0.6697	-1.55	-0.5065	-0.1522	0.45	2.6667
+x_b30s_dm	Age Information	0.0027	0.7529	-2.2281	-0.5	0	0.544	2.7808
+x_b40s_dm	Age Information	0.0037	0.655	-1.9268	-0.4943	-0.0351	0.4651	2.3514
+x_b50s_dm	Age Information	0.0016	0.3401	-0.8767	-0.16	-0.027	0	2.5688
+x_pbank_dm	Bankruptcy judge	0.0005	0.1991	-0.5676	-0.0083	0	0	1.4324
+x_pmag_dm	U.S. Magistrate	-0.0006	0.2368	-0.7241	-0.0789	0	0	1.9189
+x_ageon40s_dm	Age at time of commission	-0.0046	0.7589	-2.375	-0.5867	0.0331	0.4407	2.4407
+x_ageon50s_dm	Age at time of commission	0.0032	0.7617	-2.2833	-0.5872	0.0116	0.5444	2.4151
+x_ageon60s_dm	Age at time of commission	-0.0012	0.3923	-0.8	-0.233	-0.1522	0	1.808
+x_ageon40orless_dm	Age at time of commission	0.0025	0.3155	-0.4667	-0.1722	-0.025	0	1.8911
+x_ageon70ormore_dm	Age at time of commission	0	0.0087	-0.3333	0	0	0	0.6667
+x_pago_dm	Justice Department	0.0021	0.4475	-1.3636	-0.2609	-0.1111	0	2.5951
+x_term_dm	Number of Term	-0.0011	0.8215	-2.2807	-0.5931	0	0.5185	4.5743
+x_hdem_dm	Number of Democrats in the House in year of appointment	-0.1385	33.2353	-134.1666	-20.9553	0.6782	21.1747	135.5
+x_hrep_dm	Number of Republicans in the House in year of appointment	0.1567	32.4092	-131.4824	-20.6667	-0.5926	19.7923	132.6667
+x_sdem_dm	Number of Democrats in the Senate in year of appointment	-0.0792	9.648	-29.2975	-6.5652	-0.3511	6.4474	33.4474
+x_srep_dm	Number of Republicans in the Senate in year of appointment	0.0832	9.671	-33.4298	-6.4298	0.4348	6.6497	29.3967
+x_hother_dm	Number of members of other political parties in the house in year of appointment	0.0014	0.6535	-2.3973	-0.4262	-0.053	0.4198	2.9783
+x_sother_dm	Number of members of other political parties in the Senate in year of appointment	0.0042	0.5781	-8.25	-0.0789	0	0	13.3333
+x_agecommi_dm	Age at time of commission	-0.0262	9.4704	-39.5588	-6.5944	-0.0079	6.4379	35.448
+length_3m_dif	District Court average Sentencing Length Changes from 3 month before to 3 month after	0.2311	1.8401	-31.1174	-0.9401	0.1994	1.1444	7.4553
+res	"Appeal Decision, grouped to Bianry (Affirmed as 1 / Reversed as 2)"	1.1760	0.3808	1.0000	1.0000	1.0000	1.0000	2.0000
+SVD_0	SVD Representation of Opinion Text fetures	0.1581	0.0496	0.0332	0.1223	0.1528	0.1879	0.3803
+SVD_1	SVD Representation of Opinion Text fetures	-0.0047	0.0700	-0.1753	-0.0551	-0.0201	0.0401	0.3059
+SVD_2	SVD Representation of Opinion Text fetures	-0.0008	0.0570	-0.2055	-0.0357	-0.0024	0.0308	0.2577
+SVD_3	SVD Representation of Opinion Text fetures	0.0052	0.0535	-0.1877	-0.0271	-0.0015	0.0265	0.2528
+SVD_4	SVD Representation of Opinion Text fetures	0.0018	0.0517	-0.2110	-0.0276	-0.0011	0.0259	0.2779
+SVD_5	SVD Representation of Opinion Text fetures	-0.0018	0.0489	-0.1952	-0.0278	-0.0071	0.0184	0.3410
+SVD_6	SVD Representation of Opinion Text fetures	0.0012	0.0478	-0.1490	-0.0239	-0.0002	0.0213	0.4498
+SVD_7	SVD Representation of Opinion Text fetures	0.0012	0.0456	-0.2689	-0.0183	-0.0005	0.0173	0.2792
+SVD_8	SVD Representation of Opinion Text fetures	0.0015	0.0450	-0.1654	-0.0212	-0.0086	0.0092	0.2853
+SVD_9	SVD Representation of Opinion Text fetures	0.0003	0.0425	-0.2204	-0.0253	-0.0006	0.0235	0.2348
+SVD_10	SVD Representation of Opinion Text fetures	-0.0008	0.0410	-0.1500	-0.0173	-0.0023	0.0108	0.3457
+SVD_11	SVD Representation of Opinion Text fetures	-0.0010	0.0407	-0.2178	-0.0208	-0.0012	0.0191	0.2836
+SVD_12	SVD Representation of Opinion Text fetures	-0.0011	0.0383	-0.1694	-0.0214	-0.0027	0.0156	0.2442
+SVD_13	SVD Representation of Opinion Text fetures	0.0005	0.0379	-0.1894	-0.0167	-0.0008	0.0152	0.2253
+SVD_14	SVD Representation of Opinion Text fetures	-0.0003	0.0369	-0.2126	-0.0190	-0.0015	0.0176	0.2353
+SVD_15	SVD Representation of Opinion Text fetures	0.0014	0.0366	-0.2219	-0.0170	0.0014	0.0194	0.2900
+SVD_16	SVD Representation of Opinion Text fetures	0.0009	0.0369	-0.1413	-0.0169	0.0010	0.0170	0.2028
+SVD_17	SVD Representation of Opinion Text fetures	-0.0001	0.0363	-0.1562	-0.0217	-0.0023	0.0180	0.2113
+SVD_18	SVD Representation of Opinion Text fetures	0.0013	0.0358	-0.1668	-0.0171	0.0016	0.0189	0.2207
+SVD_19	SVD Representation of Opinion Text fetures	-0.0014	0.0349	-0.1538	-0.0198	-0.0031	0.0135	0.2512
+SVD_20	SVD Representation of Opinion Text fetures	-0.0005	0.0353	-0.1697	-0.0193	-0.0010	0.0178	0.2073
+SVD_21	SVD Representation of Opinion Text fetures	0.0009	0.0338	-0.1403	-0.0190	-0.0006	0.0181	0.1526
+SVD_22	SVD Representation of Opinion Text fetures	0.0010	0.0339	-0.1580	-0.0158	-0.0011	0.0154	0.2312
+SVD_23	SVD Representation of Opinion Text fetures	-0.0009	0.0332	-0.1505	-0.0192	-0.0021	0.0158	0.1949
+SVD_24	SVD Representation of Opinion Text fetures	0.0019	0.0324	-0.1631	-0.0142	0.0009	0.0180	0.1978
+Doc25_1	Doc2Vec 25 Representation of Opinion Text fetures	-0.8545	0.6928	-5.4288	-1.1898	-0.7137	-0.3660	0.8102
+Doc25_2	Doc2Vec 25 Representation of Opinion Text fetures	-2.0122	1.1878	-9.3845	-2.6834	-1.8373	-1.1349	0.4635
+Doc25_3	Doc2Vec 25 Representation of Opinion Text fetures	0.2563	0.4468	-1.8876	-0.0248	0.2056	0.4819	3.1036
+Doc25_4	Doc2Vec 25 Representation of Opinion Text fetures	-1.5263	0.9765	-6.7005	-2.0515	-1.3662	-0.8039	0.6609
+Doc25_5	Doc2Vec 25 Representation of Opinion Text fetures	1.0768	0.7681	-0.6411	0.5166	0.9458	1.4672	5.3060
+Doc25_6	Doc2Vec 25 Representation of Opinion Text fetures	-0.2530	0.4158	-3.4522	-0.4770	-0.2192	-0.0014	2.3819
+Doc25_7	Doc2Vec 25 Representation of Opinion Text fetures	-0.4795	0.4949	-3.8955	-0.7302	-0.3974	-0.1483	1.6454
+Doc25_8	Doc2Vec 25 Representation of Opinion Text fetures	-0.2949	0.4554	-3.0394	-0.5339	-0.2497	-0.0208	2.5899
+Doc25_9	Doc2Vec 25 Representation of Opinion Text fetures	-0.2611	0.4529	-4.4392	-0.4943	-0.2188	0.0065	2.9015
+Doc25_10	Doc2Vec 25 Representation of Opinion Text fetures	-0.8712	0.6342	-4.5530	-1.2070	-0.7544	-0.4202	1.5884
+Doc25_11	Doc2Vec 25 Representation of Opinion Text fetures	0.1618	0.4514	-1.9187	-0.1065	0.1123	0.3892	3.9649
+Doc25_12	Doc2Vec 25 Representation of Opinion Text fetures	0.4108	0.4773	-1.4948	0.0936	0.3345	0.6485	3.3177
+Doc25_13	Doc2Vec 25 Representation of Opinion Text fetures	1.1396	0.7822	-0.6100	0.5795	0.9950	1.5370	5.4650
+Doc25_14	Doc2Vec 25 Representation of Opinion Text fetures	0.1203	0.4147	-2.6535	-0.1072	0.1020	0.3451	2.7194
+Doc25_15	Doc2Vec 25 Representation of Opinion Text fetures	0.3832	0.4270	-1.7433	0.1085	0.3278	0.6107	3.5421
+Doc25_16	Doc2Vec 25 Representation of Opinion Text fetures	-0.1293	0.4425	-3.3659	-0.3467	-0.0833	0.1326	2.0620
+Doc25_17	Doc2Vec 25 Representation of Opinion Text fetures	2.0465	1.2651	-0.2547	1.1009	1.8363	2.7427	8.2447
+Doc25_18	Doc2Vec 25 Representation of Opinion Text fetures	-0.5807	0.5307	-4.0740	-0.8559	-0.4864	-0.2126	1.6172
+Doc25_19	Doc2Vec 25 Representation of Opinion Text fetures	2.0776	1.3040	-0.3317	1.1056	1.8502	2.7849	9.1670
+Doc25_20	Doc2Vec 25 Representation of Opinion Text fetures	0.2882	0.4511	-1.7858	0.0046	0.2308	0.5005	3.4080
+Doc25_21	Doc2Vec 25 Representation of Opinion Text fetures	-1.5689	0.9836	-6.8112	-2.1120	-1.3991	-0.8468	0.7409
+Doc25_22	Doc2Vec 25 Representation of Opinion Text fetures	1.0603	0.7446	-0.6641	0.5260	0.9218	1.4350	8.0009
+Doc25_23	Doc2Vec 25 Representation of Opinion Text fetures	0.4279	0.4961	-1.6279	0.1077	0.3523	0.6804	4.1202
+Doc25_24	Doc2Vec 25 Representation of Opinion Text fetures	-0.5154	0.5658	-3.7426	-0.7790	-0.4135	-0.1435	1.3101
+Doc25_25	Doc2Vec 25 Representation of Opinion Text fetures	-0.8139	0.6521	-5.4485	-1.1628	-0.6953	-0.3451	1.3965
+Doc10_1	Doc2Vec 10 Representation of Opinion Text fetures	0.6929	0.6526	-2.1146	0.2467	0.5828	1.0233	4.7713
+Doc10_2	Doc2Vec 10 Representation of Opinion Text fetures	1.5672	1.1368	-0.6954	0.7609	1.3435	2.1272	8.7653
+Doc10_3	Doc2Vec 10 Representation of Opinion Text fetures	-0.4054	0.5624	-3.8601	-0.6801	-0.3287	-0.0474	2.6730
+Doc10_4	Doc2Vec 10 Representation of Opinion Text fetures	-0.4798	0.5666	-3.9732	-0.7744	-0.4006	-0.0992	1.7792
+Doc10_5	Doc2Vec 10 Representation of Opinion Text fetures	0.3252	0.5539	-3.0692	-0.0099	0.2692	0.6195	3.2679
+Doc10_6	Doc2Vec 10 Representation of Opinion Text fetures	-0.5700	0.5976	-4.8328	-0.8763	-0.4848	-0.1748	2.2879
+Doc10_7	Doc2Vec 10 Representation of Opinion Text fetures	1.9059	1.2494	-0.9590	1.0020	1.6799	2.5925	8.9624
+Doc10_8	Doc2Vec 10 Representation of Opinion Text fetures	-0.3824	0.5407	-5.6072	-0.6622	-0.3148	-0.0288	1.4360
+Doc10_9	Doc2Vec 10 Representation of Opinion Text fetures	-2.1073	1.3875	-9.5456	-2.8459	-1.8686	-1.1149	0.6548
+Doc10_10	Doc2Vec 10 Representation of Opinion Text fetures	1.3368	0.8707	-0.9723	0.7024	1.1966	1.8089	5.6068
